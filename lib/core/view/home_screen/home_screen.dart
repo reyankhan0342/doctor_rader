@@ -7,8 +7,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-class HomeScreen extends StatelessWidget {
-  const HomeScreen({super.key});
+class HomeScreenss extends StatelessWidget {
+  const HomeScreenss({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -29,8 +29,7 @@ class HomeScreen extends StatelessWidget {
                 borderRadius: const BorderRadius.only(
                   bottomLeft: Radius.circular(43),
                 ),
-                color: const Color(
-                    0xff1D3D78), // Matches the blue shade in the design
+                color: const Color(0xff1D3D78),
               ),
               child: Padding(
                 padding: const EdgeInsets.only(

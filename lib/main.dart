@@ -1,7 +1,5 @@
 import 'package:doc_radar_app/core/view/dashbord/dashboard.dart';
-import 'package:doc_radar_app/core/view/help/help_center.dart';
-import 'package:doc_radar_app/core/view/home_screen/home_screen.dart';
-import 'package:doc_radar_app/core/view/priavcy/priacy.dart';
+import 'package:doc_radar_app/core/view/splash_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart'; // Import ScreenUtil
@@ -30,7 +28,7 @@ class MyApp extends StatelessWidget {
           home: child,
         );
       },
-      child: const CustomDashboard(),
+      child: SplashScreen(),
 
       //  CustomDashboard(),
     );
