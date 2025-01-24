@@ -29,11 +29,11 @@ class SignIn extends StatelessWidget {
                       onTap: () {
                         Navigator.pop(context);
                       },
-                      child: Icon(
+                      child: const Icon(
                         Icons.arrow_back_ios_new_sharp,
                       ),
                     ),
-                    Expanded(
+                    const Expanded(
                       child: Center(
                         child: Text(
                           "Sign In",

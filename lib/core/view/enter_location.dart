@@ -150,7 +150,7 @@ class EnterLocation extends StatelessWidget {
                     padding: EdgeInsets.symmetric(
                       horizontal: 40,
                     ),
-                    child: const Row(
+                    child: Row(
                       children: [
                         Text(
                           "8502 Preston Rd, Ingl...",

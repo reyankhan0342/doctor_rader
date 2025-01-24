@@ -74,12 +74,12 @@ class NearByDoctors extends StatelessWidget {
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
-                  Image(
+                  const Image(
                     image: AssetImage(
                       "assets/left.png",
                     ),
                   ),
-                  Expanded(
+                  const Expanded(
                     child: Center(
                       child: Image(
                         image: AssetImage(
@@ -92,7 +92,7 @@ class NearByDoctors extends StatelessWidget {
                     onTap: () {
                       Get.to(() => const Emergencies());
                     },
-                    child: Image(
+                    child: const Image(
                       image: AssetImage(
                         "assets/right.png",
                       ),

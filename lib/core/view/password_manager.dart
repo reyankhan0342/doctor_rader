@@ -24,12 +24,12 @@ class _PasswordManagerState extends State<PasswordManager> {
                     onTap: () {
                       Navigator.of(context).pop();
                     },
-                    child: Icon(Icons.arrow_back_ios)),
+                    child: const Icon(Icons.arrow_back_ios)),
               ),
-              SizedBox(
+              const SizedBox(
                 width: 90,
               ),
-              Text(
+              const Text(
                 'Password Manager',
                 style: TextStyle(
                     fontSize: 16,
@@ -42,10 +42,10 @@ class _PasswordManagerState extends State<PasswordManager> {
         padding: const EdgeInsets.symmetric(horizontal: 16.0),
         child: Column(
           children: [
-            SizedBox(
+            const SizedBox(
               height: 40,
             ),
-            Align(
+            const Align(
               alignment: Alignment.topLeft,
               child: Text(
                 'Current Password',
@@ -56,7 +56,7 @@ class _PasswordManagerState extends State<PasswordManager> {
                 ),
               ),
             ),
-            SizedBox(
+            const SizedBox(
               height: 7,
             ),
             TextField(
@@ -66,7 +66,7 @@ class _PasswordManagerState extends State<PasswordManager> {
                 labelText: 'Current Password',
                 border: OutlineInputBorder(
                   borderRadius: BorderRadius.circular(10),
-                  borderSide: BorderSide(color: Colors.black, width: 1),
+                  borderSide: const BorderSide(color: Colors.black, width: 1),
                 ),
                 suffixIcon: IconButton(
                   icon: Icon(
@@ -83,7 +83,7 @@ class _PasswordManagerState extends State<PasswordManager> {
                 ),
               ),
             ),
-            SizedBox(
+            const SizedBox(
               height: 6,
             ),
             Align(
@@ -94,10 +94,10 @@ class _PasswordManagerState extends State<PasswordManager> {
                     fontSize: 15, color: Colors.black.withOpacity(0.5)),
               ),
             ),
-            SizedBox(
+            const SizedBox(
               height: 17,
             ),
-            Align(
+            const Align(
               alignment: Alignment.topLeft,
               child: Text(
                 'New Password',
@@ -108,7 +108,7 @@ class _PasswordManagerState extends State<PasswordManager> {
                 ),
               ),
             ),
-            SizedBox(
+            const SizedBox(
               height: 7,
             ),
             TextField(
@@ -118,7 +118,7 @@ class _PasswordManagerState extends State<PasswordManager> {
                 labelText: 'New Password',
                 border: OutlineInputBorder(
                   borderRadius: BorderRadius.circular(10),
-                  borderSide: BorderSide(color: Colors.black, width: 1),
+                  borderSide: const BorderSide(color: Colors.black, width: 1),
                 ),
                 suffixIcon: IconButton(
                   icon: Icon(
@@ -135,10 +135,10 @@ class _PasswordManagerState extends State<PasswordManager> {
                 ),
               ),
             ),
-            SizedBox(
+            const SizedBox(
               height: 13,
             ),
-            Align(
+            const Align(
               alignment: Alignment.topLeft,
               child: Text(
                 'New Password',
@@ -149,7 +149,7 @@ class _PasswordManagerState extends State<PasswordManager> {
                 ),
               ),
             ),
-            SizedBox(
+            const SizedBox(
               height: 7,
             ),
             TextField(
@@ -159,7 +159,7 @@ class _PasswordManagerState extends State<PasswordManager> {
                 labelText: 'New Password',
                 border: OutlineInputBorder(
                   borderRadius: BorderRadius.circular(10),
-                  borderSide: BorderSide(color: Colors.black, width: 1),
+                  borderSide: const BorderSide(color: Colors.black, width: 1),
                 ),
                 suffixIcon: IconButton(
                   icon: Icon(

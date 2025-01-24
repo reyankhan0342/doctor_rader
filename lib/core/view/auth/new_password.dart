@@ -126,7 +126,7 @@ class NewPassword extends StatelessWidget {
               const SizedBox(
                 height: 20,
               ),
-              Text(
+              const Text(
                 "DocRadar \n Your trusted companion",
                 textAlign: TextAlign.center,
                 style: TextStyle(
@@ -135,7 +135,7 @@ class NewPassword extends StatelessWidget {
                   color: Colors.grey,
                 ),
               ),
-              SizedBox(
+              const SizedBox(
                 height: 20,
               ),
               AuthButton(

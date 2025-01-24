@@ -1,8 +1,7 @@
-import 'package:doc_radar_app/core/view/dashbord/dashboard.dart';
 import 'package:doc_radar_app/core/view/splash_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:flutter_screenutil/flutter_screenutil.dart'; // Import ScreenUtil
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 void main() {
   runApp(const MyApp());
@@ -28,7 +27,7 @@ class MyApp extends StatelessWidget {
           home: child,
         );
       },
-      child: SplashScreen(),
+      child: const SplashScreen(),
 
       //  CustomDashboard(),
     );

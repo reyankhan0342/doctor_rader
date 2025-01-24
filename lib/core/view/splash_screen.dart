@@ -2,10 +2,11 @@ import 'dart:async';
 
 import 'package:doc_radar_app/core/constant/util.dart';
 import 'package:doc_radar_app/core/view/home_screen.dart';
-import 'package:doc_radar_app/core/view/home_screen/home_screen.dart';
 import 'package:flutter/material.dart';
 
 class SplashScreen extends StatefulWidget {
+  const SplashScreen({super.key});
+
   @override
   _SplashScreenState createState() => _SplashScreenState();
 }
@@ -61,7 +62,7 @@ class _SplashScreenState extends State<SplashScreen> {
                 ],
               ),
             ),
-            Center(
+            const Center(
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
